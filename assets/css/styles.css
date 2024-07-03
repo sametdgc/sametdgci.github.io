@@ -1,0 +1,111 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+section#hero {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Align items to the end of the section */
+  align-items: center; /* Center items horizontally */
+  text-align: center;
+  padding-bottom: 20px; /* Space at the bottom */
+}
+
+@media screen and (min-width: 1024px) {
+  .section#about {
+      padding: 9rem 4.5rem;
+  }
+}
+
+header {
+  padding: 0.5rem;
+}
+
+
+.hero-image {
+  object-fit: cover;
+  margin-top: 100px;
+  width: 80%; /* Adjust as needed for responsiveness */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure it doesn't exceed container width */
+}
+
+@media screen and (min-width: 769px) {
+  .hero-image {
+      margin-bottom: -0.45rem;
+      max-width: 860px;
+  }
+}
+
+.responsive-image{
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+}
+
+.top-container {
+  padding-top: 100px;
+}
+
+
+h1 {
+  font-size: 3rem;
+  color: #323232;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+section#about {
+  background-color: #6E07F3;
+  color: white;
+  text-align: center;
+}
+
+section#about h1 {
+  color: white;
+}
+
+.profile-pic {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 1px black solid;
+}
+
+.hero-content {
+  width: 100%;
+  max-width: 1200px; /* Max width for larger screens */
+}
+
+section#experience h1,h2,h3 {
+  color: #6E07F3;
+}
+
+.years {
+  color: #6E07F3;
+}
+
+.resume-button {
+  background-color: #6E07F3;
+  color: white;
+}
+
+/* #contact {
+  background-color: #6E07F3;
+  color: white;
+} */
+
+.text-gradient {
+  color: #6E07F3;
+}
